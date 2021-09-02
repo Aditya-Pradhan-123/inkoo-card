@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightgray;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    width: 30%;
+    height: 50vh;
+    background: black;
+}
+.card p{
+    padding: 1em 4em 0 1em;
+    color: gray;  
+    font-size: 1.1em;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar .menu{
+    width: 40%;
+    height: 10%;
+    cursor: pointer;
+}
+
+.navbar .close{
+    margin-top: 1em;
+    display: none;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
+.navbar .menu-items{
+    margin-top: 3em;
+    display: none;
+}
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar ul li{
+    margin-top: 2em;
+    cursor: pointer;
+}
